@@ -1,0 +1,39 @@
+.number {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 72px);
+    gap: 15px;
+    &_item {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+      
+        &__title {
+            position: relative;
+            padding-left: 10px;
+            @include before_circle;
+            &:before {
+                top: -5px;
+                left: 8%;
+                transform: translateX(-50%);
+            }
+              
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 21px;
+            text-align: right;
+        }
+        &__grey {
+            width: 349.45px;
+            height: 14.24px;
+            background: #E8E4DE;
+            border-radius: 4px;
+        }
+        &__yellow {
+            height: 14.24px;
+            background: #F9FC5F;
+            border-radius: 4px;
+        }
+    }
+}

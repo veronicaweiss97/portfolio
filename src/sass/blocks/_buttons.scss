@@ -1,0 +1,23 @@
+.btn {
+    height: 45.76px;
+    background: $main-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 12px 25px;
+    text-align: center;
+    font-weight: bold;
+    &:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        color: #fff;
+    }
+}
+.btn2 {
+    height: 45.76px;
+    background: rgba(249, 252, 95, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 12px 25px;
+    /* margin-left: 15px; */
+    color: #000000;
+    &:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    }
+}

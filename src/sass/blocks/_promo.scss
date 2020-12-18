@@ -1,0 +1,60 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-color: #c7a0d5;
+    /* background-image: url('../img/veronica_top.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0; */
+    /* background-position: 0 -190px; */
+   /*  padding-top: 46px; */
+   .title_main {
+       display: flex;
+       justify-content: space-between;
+   }
+    &__title {
+        text-align: right;
+    }
+    &__subtitle {
+        position: relative;
+        @include before_circle;
+        padding-left: 16px;
+        z-index: 2;
+        &:before {
+            z-index: -1;
+            top: 1%;
+            left: -1px;
+        }
+    }
+    &__btns {
+        margin-top: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1139px;
+        margin-bottom: 119px;
+    }
+    &__link {
+        color: #ffffff;
+        font-weight: bold;
+        &:hover {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    .my__photo {
+        position: absolute;
+        width: 50%;
+        height: 50rem;
+        z-index: 10;
+        bottom:0rem;
+        left: 25rem;
+        background-image: url('../img/veronica_top.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    &__name {
+        font-size: 42px;
+    }
+}

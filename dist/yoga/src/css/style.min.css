@@ -1,0 +1,10 @@
+.container {
+  max-width: 1600px;
+}
+
+.container.container_header_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.min.css.map */
