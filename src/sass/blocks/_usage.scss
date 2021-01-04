@@ -5,8 +5,9 @@
         /* grid-template-columns: repeat(4,270px);
         column-gap: 13px;
         row-gap: 13px; */
-        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
+        grid-template-columns: repeat(auto-fit, 270px);
         grid-auto-rows: minmax(270px, auto);
+        justify-content: space-between;
         padding-top: 61px;
         gap: 13px;
         &-cont {

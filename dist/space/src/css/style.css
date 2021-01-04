@@ -1,0 +1,439 @@
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  margin: 0 auto;
+}
+
+body .container {
+  width: 100%;
+  background-color: #FFF4D4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff4d4), to(#fff));
+  background: linear-gradient(to bottom, #fff4d4, #fff);
+  margin: 0 auto;
+}
+
+body .container_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container_menu .container_logo {
+  width: 50%;
+  margin-top: 24px;
+  margin-left: 41px;
+}
+
+body .container_menu .container_menu_items {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 34px;
+}
+
+body .container_menu .container_menu_items ul li {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #B3ACA2;
+  letter-spacing: 1px;
+}
+
+body .container_menu .container_menu_items ul .sec {
+  margin-left: 48px;
+}
+
+body .container_menu .container_menu_items .get_in_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 15px;
+  width: 136px;
+  height: 41px;
+  left: 1742px;
+  top: 34px;
+  border: 1px solid #FF4242;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  background: transparent;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 48px;
+  margin-right: 42px;
+}
+
+body .container .container_content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 160px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0px 0px 0px 24px;
+}
+
+body .container .container_content .container_description {
+  width: 50%;
+  display: block;
+  padding-left: 174px;
+}
+
+body .container .container_content .container_description p {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #B3ACA2;
+}
+
+body .container .container_content .container_description h1 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 110%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.045em;
+  color: #23242A;
+}
+
+body .container .container_content .container_description .get_in_touch_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 41px;
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  left: 271px;
+  top: 644px;
+  background: #0E6FFF;
+  border-radius: 8px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 10px 0px;
+  border: none;
+  margin-top: 80px;
+}
+
+body .container .container_content .container_description .descr_heart {
+  position: absolute;
+  width: 612px;
+  height: 94px;
+  left: 271px;
+  top: 951px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+body .container .container_content .container_description .descr {
+  position: absolute;
+  width: 415.21px;
+  height: 85px;
+  left: 271px;
+  top: 1090px;
+}
+
+body .container .container_content .container_bg {
+  width: 50%;
+  position: relative;
+  display: block;
+}
+
+body .container .container_content .container_bg .slider-line {
+  width: 100%;
+  height: 0.7rem;
+  background-color: #fff;
+}
+
+body .container .container_content .container_bg .slider-line .slider_line_active {
+  width: 40%;
+  height: 100%;
+  background-color: #FFB19D;
+}
+
+body .container .container_content .container_bg .back_slider {
+  display: block;
+  vertical-align: top;
+  background-size: cover;
+  width: 100%;
+  height: 940px;
+  left: 1093px;
+  top: 235px;
+}
+
+body .container .container_content .container_bg .first-slider-nav {
+  position: absolute;
+  top: 54.7rem;
+  left: 1.5rem;
+}
+
+.section_one {
+  background: -webkit-gradient(linear, left top, left bottom, from(#D8F6FF), to(#fff));
+  background: linear-gradient(to bottom, #D8F6FF, #fff);
+}
+
+.section_one .container_section_one {
+  margin: 0 auto;
+  width: 72%;
+}
+
+.section_one .container_section_one .container_content_one .container_descr_one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+  height: 380px;
+}
+
+.section_one .container_section_one .container_content_one .container_descr_one h2 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 110%;
+  letter-spacing: -0.045em;
+  color: #23242A;
+  margin: 0;
+  margin-bottom: 64px;
+}
+
+.section_one .container_section_one .container_content_one .container_descr_one .text_descr {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #23242A;
+  width: 100%;
+}
+
+.section_one .container_section_one .container_content_one .container_photos {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.section_one .container_section_one .container_content_one .container_photos .container_photo_one {
+  width: 35%;
+}
+
+.section_one .container_section_one .container_content_one .container_photos .container_photo_two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 65%;
+}
+
+.two .container_section_two {
+  margin: 0 auto;
+  width: 72%;
+}
+
+.two .container_section_two .container_ipad {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 100px;
+}
+
+.two .container_section_two .container_ipad .container_img_video {
+  width: 50%;
+}
+
+.two .container_section_two .container_ipad .descr_the_best {
+  width: 45%;
+  height: 300px;
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+
+.two .container_section_two .container_ipad .descr_the_best h3 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 110%;
+  letter-spacing: -0.045em;
+  color: #23242A;
+  margin: 0;
+}
+
+.two .container_section_two .container_ipad .descr_the_best .section_two {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #23242A;
+}
+
+.two .container_section_two .container_ipad .descr_the_best .link {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 135%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.01em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #0E6FFF;
+}
+
+.two .container_section_two .container_apple_watch {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 120px;
+}
+
+.two .container_section_two .container_apple_watch .container_descr_design {
+  width: 50%;
+  padding-left: 70px;
+  padding-right: 81px;
+}
+
+.two .container_section_two .container_apple_watch .container_descr_design h4 {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 110%;
+  letter-spacing: -0.045em;
+  color: #23242A;
+}
+
+.two .container_section_two .container_apple_watch .container_descr_design .descr_cont_watch {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #23242A;
+}
+
+.two .container_section_two .container_apple_watch .container_descr_design .link_two {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 135%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.01em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #0E6FFF;
+}
+/*# sourceMappingURL=style.css.map */

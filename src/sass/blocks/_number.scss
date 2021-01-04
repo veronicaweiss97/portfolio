@@ -1,7 +1,9 @@
 .number {
     padding-top: 100px;
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(auto-fit, 350px);
+    grid-auto-rows: minmax(70px, auto);
+    justify-content: space-between;
     grid-template-rows: repeat(2, 72px);
     gap: 15px;
     &_item {

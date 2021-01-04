@@ -119,16 +119,20 @@
             <div class="promo__btns">
                 <a href="#" class="promo__link btn">Portfolio</a>
                 <a href="#" class="promo__link btn2">About Me</a>
-            </div>
+            <!-- </div>
             <div class="my__photo"></div>
-        </div>
+        </div> -->
     </section>
 
     <section class="about">
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo">
-                    <img src="./img/IMG_9756 1bg2.jpg" alt="me" ></div>
+                    <img srcset="./img/bg_min.jpg 300w,
+                                 ./img/bg.jpg 400w"
+                    sizes="(max-width: 576px) 280px,
+                           (min-width: 577px) 400px"
+                    src="./img/bg.jpg" alt="me" ></div>
                 
                 <div class="about__descr">
                     <h2 class="title title_fz16 about__title">About Me</h2>
@@ -147,7 +151,7 @@
                         </div>
                         <div class="about__skills-text">I use Html, Css with different extensions such as Sass ans Scss (including layout system Grid), Java Script, NodeJS, Gulp, Git and GitHub and also know BEM methodology.</div>
                     </div>
-                    <div class="about__skills-item">
+                   <!--  <div class="about__skills-item">
                         <div class="about__skills-circle">
                             <img src="./icons/about_me/mobile_dev.svg" alt="mobweb">
                         </div>
@@ -155,7 +159,7 @@
                             <div class="title title_fz14">Mobile development</div>
                         </div>
                         <div class="about__skills-text">I use Html, Css with different extensions such as Sass ans Scss (including layout system Grid), Java Script, NodeJS, Gulp, Git and GitHub and also know BEM methodology.</div>
-                    </div>
+                    </div> -->
                     <div class="about__skills-item">
                         <div class="about__skills-circle">
                             <img src="./icons/about_me/design.svg" alt="design">
@@ -171,7 +175,7 @@
         </div>
     </section>
 
-    <section class="resume">
+  <section class="resume">
         <div class="container">
             <h2 class="title title_fz16 resume__title">Experience</h2>
             <div class="title title_fz36 resume__subtitle">Background</div>
@@ -238,7 +242,7 @@
     </section>
     
 
-    <section class="usage">
+ <section class="usage">
         <div class="container">
             <h2 class="title title_fz16 resume__title">Skills</h2>
             <div class="title title_fz36 resume__subtitle">What i use in my work</div>
@@ -282,9 +286,9 @@
 
             </div>
         </div>
-    </section>
+    </section> 
 
-    <section>
+   <section>
         <div class="container">
             <div class="number">
                 <div class="number_item">
@@ -340,7 +344,7 @@
         </div>
     </section>
 
-    <section class="portfolio">
+   <section class="portfolio">
         <div class="container">
             <h2 class="title title_fz16 portfolio__title">Portfolio</h2>
             <div class="title title_fz36 portfolio__subtitle">My Projects</div>
@@ -350,15 +354,15 @@
                 <a href="/yoga/src/index.html" class="portfolio__item">
                     <img src="./img/Yoga_main.jpg" alt="yoga">
                 </a>
-                <a href="#" class="portfolio__item">
-                    <img src="./img/works/uber.jpg" alt="uber">
+                <a href="/smart home/index.html" class="portfolio__item">
+                    <img src="./img/profile_icon.svg" alt="smart_home">
                 </a>
                 <a href="/puls/src/index.html" class="portfolio__item">
                     <img src="./img/works/pulse.jpg" alt="pulse">
                 </a>
-               <!--  <a href="#" class="portfolio__item vertical">
-                    <img src="./img/works/plans.jpg" alt="plans">
-                </a> -->
+                <a href="/space/index.html" class="portfolio__item vertical">
+                    <img src="./img/photo_header.jpg" alt="space">
+                </a>
                 <a href="/yoga_two/src/index.html" class="portfolio__item">
                     <img src="./img/main_img.png" alt="yoga 2">
                 </a>
@@ -366,10 +370,18 @@
                     <img src="./img/main_back_one.jpg" alt="food dev">
                 </a>
             </div>
+            <div class="title title_fz36 portfolio__subtitle jstitle">JAVAScript Projects</div>
+            <div class="divider"></div>
+            <div class="js-projects">
+                <a href="/clock/index.html" class="portfolio__item clock">
+                    <img src="./img/clock.png" alt="clock">
+                </a>
+               
+            </div>
         </div>
-    </section>
+    </section> 
 
-    <section class="price">
+<section class="price"> 
         <div class="container">
             <h2 class="title title_fz16 portfolio__title">Price</h2>
             <div class="divider"></div>
@@ -418,9 +430,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
-    <section class="contacts">
+ <section class="contacts"> 
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo">
