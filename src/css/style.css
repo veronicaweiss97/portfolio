@@ -1169,9 +1169,8 @@ template {
   padding-top: 60px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (280px)[2];
-  -ms-grid-columns: (280px)[4];
-      grid-template: repeat(2, 280px)/repeat(4, 280px);
+  -ms-grid-columns: (280px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 280px);
   grid-auto-rows: 280px;
   gap: 5px;
 }
@@ -1513,17 +1512,40 @@ template {
     grid-row: unset;
     grid-column: unset;
   }
+  .portfolio .js-projects {
+    padding-top: 60px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (178px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 178px);
+    grid-auto-rows: 280px;
+    gap: 5px;
+  }
   .contacts {
     padding-top: 50px;
   }
+  .contacts__textarea {
+    width: 90%;
+  }
+  .contacts__innput input {
+    width: 79%;
+  }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) and (max-width: 992px) {
   .container {
     max-width: 720px;
   }
+  .promo {
+    position: relative;
+  }
   .promo__btns {
     margin-bottom: 20px;
+  }
+  .promo .my__photo img {
+    position: absolute;
+    width: 300px;
+    right: 50px;
   }
   .about__subtitle {
     font-size: 31px;
@@ -1532,6 +1554,7 @@ template {
   .about__wrapper {
     -ms-grid-columns: 300px 380px;
         grid-template-columns: 300px 380px;
+    /* grid-template-columns: repeat(auto-fit,258px); */
     -webkit-column-gap: 35px;
             column-gap: 35px;
     row-gap: 0px;
@@ -1577,6 +1600,14 @@ template {
   .portfolio {
     padding-top: 50px;
   }
+  .portfolio .js-projects {
+    padding-top: 60px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (178px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 178px);
+    gap: 5px;
+  }
   .price {
     padding-top: 50px;
   }
@@ -1598,7 +1629,7 @@ template {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) and (max-width: 768px) {
   .container {
     max-width: 540px;
   }
@@ -1662,9 +1693,17 @@ template {
   .portfolio {
     padding-top: 40px;
   }
+  .portfolio .js-projects {
+    padding-top: 60px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (133px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 133px);
+    gap: 5px;
+  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1200px) and (max-width: 576px) {
   .container {
     width: 85%;
     padding: 0 10px;
@@ -1739,6 +1778,20 @@ template {
         grid-template-columns: repeat(1, 300px);
         justify-content: center;
     } */
+  .portfolio {
+    padding-top: 40px;
+  }
+  .portfolio .js-projects {
+    padding-top: 60px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (94px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 94px);
+    gap: 5px;
+  }
+}
+
+@media (max-width: 1200px) {
   .contacts__wrapper {
     -ms-grid-columns: (400px)[1];
         grid-template-columns: repeat(1, 400px);

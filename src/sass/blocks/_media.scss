@@ -60,19 +60,41 @@
                 grid-column: unset;
             }
         }
+        .js-projects {
+            padding-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 178px);
+            grid-auto-rows: 280px;
+            gap: 5px;
+        }
     }
     .contacts {
         padding-top: 50px;
+        &__textarea {
+        width: 90%;
+        }
+        &__innput {
+            input {
+                width: 79%;
+            }
+        }
     }
-}
 
 @media (max-width: 992px) {
     .container {
         max-width: 720px;
     }
     .promo {
+        position: relative;
         &__btns {
             margin-bottom: 20px;
+        }
+        .my__photo {
+            img {
+                position: absolute;
+                width: 300px;
+                right: 50px;
+            }
         }
     }
     .about {
@@ -82,6 +104,7 @@
         }
         &__wrapper {
             grid-template-columns: 300px 380px;
+            /* grid-template-columns: repeat(auto-fit,258px); */
             column-gap: 35px;
             row-gap: 0px;
         }
@@ -122,6 +145,13 @@
     } */
     .portfolio {
         padding-top: 50px;
+        .js-projects {
+            padding-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 178px);
+            
+            gap: 5px;
+        }
     }
     .price {
         padding-top: 50px;
@@ -202,6 +232,13 @@
     } */
     .portfolio {
         padding-top: 40px;
+        .js-projects {
+            padding-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 133px);
+            
+            gap: 5px;
+        }
     }
 }
 
@@ -279,6 +316,18 @@
         grid-template-columns: repeat(1, 300px);
         justify-content: center;
     } */
+    .portfolio {
+        padding-top: 40px;
+        .js-projects {
+            padding-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 94px);
+            
+            gap: 5px;
+        }
+    }
+}
+
     .contacts {
         &__wrapper {
             grid-template-columns: repeat(1, 400px);
@@ -377,4 +426,4 @@
             column-gap: 10px;
         }
     }
-}
+} 
