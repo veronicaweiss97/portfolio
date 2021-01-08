@@ -1,6 +1,8 @@
 .usage {
     padding-top: 100px;
     &__items {
+        opacity: 0;
+        transition: opacity 1s;
         display: grid;
         /* grid-template-columns: repeat(4,270px);
         column-gap: 13px;
@@ -21,5 +23,8 @@
             font-size: 12px;
             line-height: 18px;
         }
+    }
+    .usage_show {
+        opacity: 1;
     }
 }

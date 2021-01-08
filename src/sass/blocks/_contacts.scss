@@ -1,6 +1,7 @@
 .contacts {
     padding: 100px 0 90px 0;
     background-color: #ffd8ff;
+    
 
     &__wrapper {
         padding: 0 35px 0 52px;
@@ -25,9 +26,7 @@
 
     &__title {
         position: relative;
-        padding-left: 18px;
         padding-top: -1px;
-        @include before_circle;
     }
 
     &__subtitle {
