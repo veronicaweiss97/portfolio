@@ -111,8 +111,8 @@ body .container .container_content .container_description p {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
-  line-height: 120%;
+  font-size: 20px;
+  line-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,8 +128,8 @@ body .container .container_content .container_description h1 {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
-  font-size: 84px;
-  line-height: 110%;
+  font-size: 60px;
+  line-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,9 +154,9 @@ body .container .container_content .container_description .get_in_touch_btn {
   padding: 18px 41px;
   position: absolute;
   width: 252px;
-  height: 72px;
-  left: 271px;
-  top: 644px;
+  height: 59px;
+  left: 236px;
+  top: 597px;
   background: #0E6FFF;
   border-radius: 8px;
   font-family: Helvetica Neue;
@@ -241,7 +241,7 @@ body .container .container_content .container_bg .first-slider-nav {
 
 .section_one .container_section_one {
   margin: 0 auto;
-  width: 72%;
+  width: 95%;
 }
 
 .section_one .container_section_one .container_content_one .container_descr_one {
@@ -321,7 +321,7 @@ body .container .container_content .container_bg .first-slider-nav {
 
 .two .container_section_two {
   margin: 0 auto;
-  width: 72%;
+  width: 95%;
 }
 
 .two .container_section_two .container_ipad {
