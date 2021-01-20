@@ -1,11 +1,10 @@
 .price {
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
     &__items {
         display: grid;
-        grid-template: repeat(3, minmax(45px, auto)) / repeat(2, 365px);
+        grid-template: repeat(3, minmax(45px, auto)) / repeat(2, 42%);
         grid-auto-rows: minmax(45px, auto);
         row-gap: 15px;
         justify-content: space-between;

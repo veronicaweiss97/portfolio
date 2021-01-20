@@ -3,10 +3,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 350px);
     grid-auto-rows: minmax(70px, auto);
-    justify-content: space-between;
+    justify-content: center;
     grid-template-rows: repeat(2, 72px);
     gap: 15px;
     &_item {
+        
         display: grid;
         grid-template-columns: repeat(2, 50%);
       

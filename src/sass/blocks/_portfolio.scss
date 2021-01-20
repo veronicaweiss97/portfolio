@@ -1,5 +1,5 @@
 .portfolio {
-    padding-top: 100px;
+    padding-top: 1%;
     &__title {
         position: relative;
         text-align: center;
@@ -20,7 +20,7 @@
     &__wrapper {
         padding-top: 60px;
         display: grid;
-        grid-template: repeat(2, 280px) / repeat(4, 280px);
+        grid-template: repeat(2, 28%) / repeat(4, 26%);
         grid-auto-rows: 280px;
         gap: 5px;
         .vertical {
@@ -57,10 +57,12 @@
         margin-top: 50px;
     }
     .js-projects {
-        padding-top: 60px;
+       
+        padding-top: 4%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, 280px);
-        grid-auto-rows: 280px;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, 25%);
+        grid-auto-rows: 50%;
         gap: 5px;
        .clock {
            grid-row: 1 / 2;

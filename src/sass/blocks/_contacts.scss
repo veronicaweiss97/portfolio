@@ -1,18 +1,18 @@
 .contacts {
-    padding: 100px 0 90px 0;
+    padding: 5% 0 9% 0;
     background-color: #ffd8ff;
     
 
     &__wrapper {
         padding: 0 35px 0 52px;
         display: grid;
-        grid-template-columns: 400px 585px;
+        grid-template-columns: 40% 58%;
         justify-content: space-between;
     }
 
     &__photo {
         img {
-            max-width: 100%;
+            max-width: 80%;
         }
     }
 
@@ -62,7 +62,7 @@
     &__form {
         margin-top: 30px;
         display: grid;
-        grid-template: 45px 190px 45px / repeat(2, 280px);
+        grid-template: 45px 190px 45px / repeat(2, 45%);
         justify-content: space-between;
         row-gap: 18px;
 
