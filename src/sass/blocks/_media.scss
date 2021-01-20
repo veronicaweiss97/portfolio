@@ -18,6 +18,11 @@
     .container {
         max-width: 960px;
     }  
+    .promo {
+        .my__photo {
+            bottom: 3rem;
+        }
+    }
     .about {
         &__wrapper {
             grid-template-columns: 338px 551px;
@@ -73,7 +78,7 @@
     .contacts {
         padding-top: 50px;
         &__textarea {
-        width: 90%;
+        width: 100%;
         }
         &__innput {
             input {
@@ -95,7 +100,8 @@
             img {
                 position: absolute;
                 width: 300px;
-                right: 50px;
+                right: 38px;
+                bottom: -12px;
             }
         }
     }
@@ -188,6 +194,14 @@
             line-height: 43px;
            width: 300px;
         } 
+        .promo {
+            .my__photo {
+                bottom: 6rem;
+            }
+        }
+        &__btns {
+            margin-top: 533px;
+        }
     }
     .about {
         &__wrapper {
@@ -223,16 +237,19 @@
             width: 100%;
         }
         padding-top: 50px;
-        /* &__items {
+        &__items {
             padding-top: 30px;
-            grid-template: repeat(2,minmax(270px,auto))/repeat(2,280px);
-        } */
+            grid-template-columns: repeat(auto-fit,253px);
+        }
     }
-   /*  .number {
+    .number {
         grid-template-columns: repeat(1, 300px);
         justify-content: center;
-    } */
+    }
     .portfolio {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit,262px);
+        }
         padding-top: 40px;
         .js-projects {
             padding-top: 60px;
@@ -270,6 +287,12 @@
         }
         &__name {
             font-size: 30px;
+        }
+        &__btns {
+            margin-top: 617px;
+        }
+        .my__photo {
+            left: 18rem;
         }
     }
         .menu {
@@ -320,10 +343,14 @@
     } */
     .portfolio {
         padding-top: 40px;
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit,223px);
+            grid-template-rows: repeat(auto-fit,223px);
+        }
         .js-projects {
             padding-top: 60px;
             display: grid;
-            grid-template-columns: repeat(auto-fit, 94px);
+            grid-template-columns: repeat(auto-fit, 113px);
             
             gap: 5px;
         }
@@ -344,6 +371,11 @@
 @media (max-width: 425px) {
     .container {
         width: 100%;
+    }
+    .promo {
+        .my__photo {
+            left: 13rem;
+        }
     }
     .resume {
         .container {
@@ -402,7 +434,30 @@
             }
         }
     }
+    .contacts {
+        &__input {
+            input {
+                width: 69%;
+            }
+        }
+        &__textarea {
+            textarea {
+                width: 94%;
+            }
+        }
+        &__triggers {
+            width: 81%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__policy {
+            font-size: 7px;
+        }
+        &__form {
+            grid-template: 45px 190px 45px/repeat(2,196px);
+        }
 }
+
 @media (max-width: 321px) {
     .container {
         width: 100%;
@@ -429,3 +484,4 @@
         }
     }
 } 
+}

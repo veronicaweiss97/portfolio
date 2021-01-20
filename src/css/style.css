@@ -1507,6 +1507,9 @@ template {
   .container {
     max-width: 960px;
   }
+  .promo .my__photo {
+    bottom: 6rem;
+  }
   .about__wrapper {
     -ms-grid-columns: 338px 551px;
         grid-template-columns: 338px 551px;
@@ -1589,7 +1592,8 @@ template {
   .promo .my__photo img {
     position: absolute;
     width: 300px;
-    right: 50px;
+    right: 38px;
+    bottom: -12px;
   }
   .about__subtitle {
     font-size: 31px;
@@ -1684,6 +1688,12 @@ template {
     line-height: 43px;
     width: 300px;
   }
+  .promo .promo .my__photo {
+    bottom: 6rem;
+  }
+  .promo__btns {
+    margin-top: 533px;
+  }
   .about__wrapper {
     -ms-grid-rows: 340px auto auto;
     -ms-grid-columns: 1fr;
@@ -1722,20 +1732,28 @@ template {
   }
   .usage {
     padding-top: 50px;
-    /* &__items {
-            padding-top: 30px;
-            grid-template: repeat(2,minmax(270px,auto))/repeat(2,280px);
-        } */
   }
   .usage .container {
     width: 100%;
   }
-  /*  .number {
+  .usage__items {
+    padding-top: 30px;
+    -ms-grid-columns: (253px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 253px);
+  }
+  .number {
+    -ms-grid-columns: (300px)[1];
         grid-template-columns: repeat(1, 300px);
-        justify-content: center;
-    } */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .portfolio {
     padding-top: 40px;
+  }
+  .portfolio__wrapper {
+    -ms-grid-columns: (262px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 262px);
   }
   .portfolio .js-projects {
     padding-top: 60px;
@@ -1769,6 +1787,12 @@ template {
   }
   .promo__name {
     font-size: 30px;
+  }
+  .promo__btns {
+    margin-top: 617px;
+  }
+  .promo .my__photo {
+    left: 18rem;
   }
   .menu__block {
     width: 250px;
@@ -1825,12 +1849,18 @@ template {
   .portfolio {
     padding-top: 40px;
   }
+  .portfolio__wrapper {
+    -ms-grid-columns: (223px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 223px);
+    -ms-grid-rows: (223px)[auto-fit];
+        grid-template-rows: repeat(auto-fit, 223px);
+  }
   .portfolio .js-projects {
     padding-top: 60px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (94px)[auto-fit];
-        grid-template-columns: repeat(auto-fit, 94px);
+    -ms-grid-columns: (113px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 113px);
     gap: 5px;
   }
 }
@@ -1855,6 +1885,9 @@ template {
 @media (max-width: 425px) {
   .container {
     width: 100%;
+  }
+  .promo .my__photo {
+    left: 13rem;
   }
   .resume .container {
     width: 100%;
@@ -1907,9 +1940,26 @@ template {
   .number_item__grey {
     width: 248px;
   }
+  .contacts__input input {
+    width: 69%;
+  }
+  .contacts__textarea textarea {
+    width: 94%;
+  }
+  .contacts__triggers {
+    width: 81%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts__policy {
+    font-size: 7px;
+  }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 425px) and (max-width: 321px) {
   .container {
     width: 100%;
   }
