@@ -39,6 +39,11 @@
             justify-content: center;
         }
     }
+    .portfolio {
+        .jstitle {
+           margin-top: 54%;
+        }
+    }
 }
 @media (max-width: 500px) {
     .promo {
@@ -86,7 +91,7 @@
     }
     .portfolio {
         .jstitle {
-            padding-top: 14%;
+           margin-top: 74%;
         }
     }
     .price {

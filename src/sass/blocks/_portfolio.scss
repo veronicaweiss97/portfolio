@@ -39,6 +39,10 @@
             grid-row: 3 / 4;
             grid-column: 3 / 5;
         }
+        .school {
+            grid-row: 4 / 5;
+            grid-column: 1 / 3;
+        }
         
     }
     &__item {
@@ -54,7 +58,7 @@
         }
     }
     .jstitle {
-        margin-top: 50px;
+        margin-top: 10rem;
     }
     .js-projects {
        
